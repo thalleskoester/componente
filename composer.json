@@ -1,0 +1,25 @@
+{
+  "name": "thallesdella/project",
+  "description": "Model of component for composer",
+  "keywords": [
+    "component",
+    "composer"
+  ],
+  "homepage": "http://www.bunana.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thalles D. Koester",
+      "email": "thallesdella@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ThallesDKoester\\Project\\": "src"
+    }
+  }
+}
